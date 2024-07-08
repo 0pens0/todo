@@ -1,0 +1,7 @@
+apiVersion: config.tanzu.vmware.com/v1
+configuration:
+  dev:
+    paths:
+    - todo-service/.tanzu/config/
+    - todo-ui/.tanzu/config/
+kind: TanzuConfig
